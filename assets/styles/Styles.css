@@ -6,7 +6,7 @@ body {
     font-family: 'Sen', 'Arial', sans-serif;
 }
 
-.mainmenu, #menu {
+a {
     text-decoration: none;
     color: white;
     padding: 8px;
