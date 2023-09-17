@@ -82,8 +82,8 @@ a:hover {
     color: blue;
 }
 
-#firstsection h1::last-line {
-    color: rgba(255, 255, 255, 0.50);
+.colortext {
+    color: rgba(255, 255, 255, 0.50); 
 }
 
 #firstsection {
@@ -93,4 +93,16 @@ height: 430.388px;
 flex-direction: column;
 justify-content: center;
 flex-shrink: 0;
+}
+
+.count div:first-of-type p {
+    color: #3CC74E;
+}
+
+.count div:nth-child(2) p {
+    color: #609BFF;
+}
+
+.count div:last-of-type p {
+    color:#E95D90;
 }
