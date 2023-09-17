@@ -3,14 +3,170 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="favicon" href="assets\images\favicon.gif" type="image/gif">
-    <link rel="shortcut icon" href="assets\images\icon.png" type="image/png">
     <title>Almira P.</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="assets\images\icon.png" type="image/png">
+    <link rel="stylesheet" href="assets\styles\Normalize.css">
+    <link rel="stylesheet" href="assets\styles\Styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter&family=Montserrat&family=Oswald:wght@300&family=Pacifico&family=Roboto:ital,wght@1,300&family=Sen:wght@700&display=swap"
+        rel="stylesheet">
+
 </head>
 
 <body>
-    Я программистка!
+    <header>
+        <h3>Almira P.</h3>
+        <nav>
+            <ul>
+                <li><a class="menu" href="#">Experience</a></li>
+                <li><a class="menu" href="#">Work</a></li>
+                <li><a class="menu" id="menu_contact" href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <article>
+            <img id="Almira" src="assets\images\Me.jpg" alt="Almira" />
+            <div id="foto_background"></div>
+            <section>
+                <h1>I’m Almira Polyanskaya. A Programmer based in Moscow, Russia.</h1>
+                <h4>I’m probably the most passionate programmer you will ever get to work with. If you have a great
+                    project that needs some amazing skills, I’m the right person</h4>
+            </section>
+
+            <section>
+                <h5>work experience</h5>
+                <h2>Companies I have worked for in the past 5 years</h2>
+            </section>
+            <section>
+                <div>
+                    <span class="count">01</span>
+                    <p class="Google">Google</p>
+                    <h5>I currently am a programmer in Google Play Team.</h5>
+                </div>
+                <div>
+                    <span class="count">02</span>
+                    <p class="Facebook">Facebook</p>
+                    <h5>I’ve worked on a wide variety of internal tools for facebook over the past 6 years.</h5>
+                </div>
+                <div>
+                    <span class="count">03</span>
+                    <p class="Dribbble">Dribbble</p>
+                    <h5>I started my career with Dribbble.</h5>
+                </div>
+            </section>
+            <section>
+                <div>
+                    <h2>Philosophy & values</h2>
+                    <h4>I think everyone wants the same thing - relationship with humanity, peace with the metaphysical,
+                        and
+                        experience with the universe. I try to grasp these things with my values: authenticity,
+                        creativity,
+                        & hospitality.</h4>
+                    <h5>More about me</h5>
+                </div>
+                <img id="Glassball" src="assets\images\glassball.jpg" />
+            </section>
+            <section>
+                <div>
+                    <h2>Skillset</h2>
+                    <h4>With skills in over 4 different fields of programming, I am the perfect person to hire when it
+                        comes
+                        to a full fledged project. Whatever your needs are, I can pretty much take on any challenge.
+                    </h4>
+                </div>
+                <div>
+                    <img class="icon" src="assets\images\programming_icon.svg">
+                    <span class="skills">Programming</span>
+                    <h5>Working at Facebook has taught me a lot about how to understand users, solve problems and build
+                        great products.</h5>
+                </div>
+                <div>
+                    <img class="icon" src="assets\images\visualdesign_icon.svg">
+                    <span class="skills">Visual Design</span>
+                    <h5>My experience at dribbble has helped me learn to develop programming skills</h5>
+                </div>
+            </section>
+            <img id="Frame" src="assets\images\Frame.png" />
+            <section>
+                <div>
+                    <h2>This is what people say about me</h2>
+                    <h4>Here are a few lines from people who I have worked with over the past 5 years in my programming
+                        career.</h4>
+                    <a id="testimonials" href="url">See all testimonials</a>
+                </div>
+                <div>
+                    <img class="testimoial_img" src="assets\images\Testimonial1.png">
+                    <p class="testimonial">"Almira is one of the best programmers I have worked with in my entire life.
+                        She is a programmer who is very capable of taking up complex projects and delivers impeccable
+                        result."</p>
+                    <h4>Richard Owens, CEO Company 1</h4>
+                </div>
+                <div>
+                    <img class="testimoial_img" src="assets\images\Testimonial2.png">
+                    <p class="testimonial">"I think Almira has an incredible gift. It has been an absolute pleasure to
+                        work with a programmer of this caliber."</p>
+                    <h4>Emily Parker, CEO Company 2</h4>
+                </div>
+            </section>
+            <ul>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+            </div>
+
+            <section>
+                <h2></h2>
+            </section>
+            <section>
+                <h2></h2>
+            </section>
+            <section>
+                <h3>Let’s get started</h3>
+                <h4>Now that you know a lot about me, let me know if you are interested to work with me.</h4>
+                <form action="script.php" method="POST">
+                    <div>
+                        <label for="name">Name</label><br>
+                        <input type="text" id="name" />
+                    </div>
+                    <div>
+                        <label for="email">Email</label><br>
+                        <input type="email" id="email" />
+                    </div>
+                    <div>
+                        <label for="message">Message</label><br>
+                        <input type="message" id="message" />
+                    </div><br>
+                    <button>LET'S GET STARTED</button>
+                </form>
+            </section>
+        </article>
+    </main>
+    <footer>
+        <h2 id="footer">Almira P.</h2>
+        <p>Not Copyright 2023 • Almira Polyanskaya</p>
+        <object data="assets\images\logo socials.png"></object>
+        <nav>
+            <ul>
+                <li><a class="menu" href="#">Home</a></li>
+                <li><a class="menu" href="#">About</a></li>
+                <li><a class="menu" href="#">Work</a></li>
+                <li><a class="menu" href="#">Process</a></li>
+                <li><a class="menu" href="#">Store</a></li>
+                <li><a class="menu" href="#">Block</a></li>
+                <li><a class="menu" href="#">Reading list</a></li>
+            </ul>
+        </nav>
+    </footer>
 </body>
 
 </html>
