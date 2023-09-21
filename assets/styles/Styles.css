@@ -1,6 +1,4 @@
 body {
-    width: 1440px;
-    height: 5412px;
     background: var(--Black, #000);
     color: #FFF;
     font-family: 'Sen', 'Arial', sans-serif;
@@ -13,10 +11,6 @@ a {
     font-weight: bolder;
 }
 
-.mainmenu a:last-of-type {
-color: purple;
-}
-
 h1 {
     font-size: 78px;
     font-style: normal;
@@ -25,12 +19,8 @@ h1 {
 }
 
 h2 #footer {
-    display: flex;
     width: 263px;
     height: 47px;
-    flex-direction: column;
-    justify-content: center;
-    flex-shrink: 0;
     line-height: 60px;
     margin-top: 83px;
     margin-left: 74px;
@@ -42,14 +32,8 @@ h2 #footer {
 }
 
 h3 {
-    display: flex;
     width: 175px;
     height: 45px;
-    flex-direction: column;
-    justify-content: center;
-    flex-shrink: 0;
-    margin-top: 20px;  
-    margin-left: 62px;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     font-size: 30px;
     font-style: normal;
@@ -57,42 +41,54 @@ h3 {
     box-shadow: 0px 4px 4px 0px #00000040;
 }
 
+.Almira {
+    margin-top: 20px;  
+    margin-left: 62px;
+}
+
+nav .mainmenu {
+    width: 330px;
+    display: absolute;
+    align-items: center;
+    gap: 10px;
+    top: 0px;
+    right: 0px;
+}
+
+.mainmenu a {
+    width: auto;
+    height: auto;
+    padding: 32px 24px;
+}
+
+.mainmenu a:last-of-type {
+    background: var(--Purple, #5221E6);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
 h1::first-letter {
-    color: maroon;
-}
-object {
-    width: 114px;
-    height: 26px;
-
-}
-
-label {
-    color: white;
+    color:#f8e401eb;
 }
 
 #Almira {
     width: 750px;
     height: 746px;
-    flex-shrink: 0;
     margin-top: 44px;
     margin-left: 50px;
 }
 
 a:hover {
-    color: blue;
+    color: #357fd9;
+    cursor: pointer;
 }
 
 .colortext {
     color: rgba(255, 255, 255, 0.50); 
 }
 
-#firstsection {
-display: flex;
-width: 718px;
-height: 430.388px;
-flex-direction: column;
-justify-content: center;
-flex-shrink: 0;
+section #firstsection {
+    width: 738px;
+    height: 515px;
 }
 
 .count div:first-of-type p {
