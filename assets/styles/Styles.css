@@ -15,7 +15,6 @@ h1 {
     font-size: 78px;
     font-style: normal;
     font-weight: 700;
-    line-height: normal;
 }
 
 h2 #footer {
@@ -53,6 +52,7 @@ nav .mainmenu {
     gap: 10px;
     top: 0px;
     right: 0px;
+    z-index: 200;
 }
 
 .mainmenu a {
@@ -77,6 +77,22 @@ h1::first-letter {
     margin-left: 130px;
 }
 
+#Frame {
+    width: 1361px;
+    height: 140px;
+    margin-left: 50px;
+    }
+
+#foto_background {
+    position: absolute;
+    width: 900px;
+    height: 900px;
+    top: 0px;
+    right: 0px;
+    background-color: #181823;
+    z-index: 100;
+}
+
 a:hover {
     color: #357fd9;
     cursor: pointer;
@@ -86,9 +102,13 @@ a:hover {
     color: rgba(255, 255, 255, 0.50); 
 }
 
-section #firstsection {
+#firstsection {
+    position: absolute;
+    top: 159px;
+    left: 533px;
     width: 738px;
-    height: 515px;
+    height: 496px;
+    z-index: 300;
 }
 
 .count div:first-of-type p {
